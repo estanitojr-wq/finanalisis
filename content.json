@@ -112,7 +112,7 @@
       "gancho": "10 € a la semana no te hacen rico… ¿o sí?",
       "descripcion": "El poder del 1 % diario y de aportar sin parar.",
       "url": "",
-      "archivo": "constancia_dia1.mp4"
+      "archivo": "dia01_constancia.mp4"
     },
     {
       "id": "d02",
@@ -122,7 +122,7 @@
       "gancho": "Esta es la razón por la que el dinero llama al dinero",
       "descripcion": "Intereses sobre intereses: 10.000 € al 10 % a 30 años, simple (40.000 €) frente a compuesto (174.494 €).",
       "url": "",
-      "archivo": "interes_compuesto.mp4"
+      "archivo": "dia02_interes_compuesto.mp4"
     },
     {
       "id": "d03",
@@ -132,7 +132,7 @@
       "gancho": "Un truco para saber cuándo se duplica tu dinero",
       "descripcion": "72 ÷ rentabilidad = años para duplicar. Al 7 %, unos 10 años.",
       "url": "",
-      "archivo": ""
+      "archivo": "dia03_regla_del_72.mp4"
     },
     {
       "id": "d04",
@@ -142,7 +142,7 @@
       "gancho": "Ana puso 2,5 veces menos dinero… y acabó con más",
       "descripcion": "Invertir 10 años desde los 23 gana a invertir 25 desde los 33.",
       "url": "",
-      "archivo": ""
+      "archivo": "dia04_empezar_pronto.mp4"
     },
     {
       "id": "d05",
@@ -152,7 +152,7 @@
       "gancho": "Tu dinero en el banco pierde valor cada año",
       "descripcion": "Con un 2,5 % de inflación, 1.000 € compran como 780 € dentro de 10 años.",
       "url": "",
-      "archivo": ""
+      "archivo": "dia05_inflacion.mp4"
     },
     {
       "id": "d06",
@@ -162,7 +162,7 @@
       "gancho": "Antes de invertir un solo euro, haz esto",
       "descripcion": "De 3 a 6 meses de gastos en una cuenta remunerada, para no tener que vender en una caída.",
       "url": "",
-      "archivo": ""
+      "archivo": "dia06_fondo_emergencia.mp4"
     },
     {
       "id": "d07",
@@ -182,7 +182,7 @@
       "gancho": "Cómo comprar 1.500 empresas con 10 €",
       "descripcion": "Una cesta de muchas empresas, diversificada y con comisiones bajas.",
       "url": "",
-      "archivo": ""
+      "archivo": "dia08_que_es_un_etf.mp4"
     },
     {
       "id": "d09",
@@ -192,7 +192,7 @@
       "gancho": "¿Cuál es mejor para empezar?",
       "descripcion": "EE. UU., países desarrollados o todo el mundo: la diversificación de cada uno.",
       "url": "",
-      "archivo": ""
+      "archivo": "dia09_msci_world_sp500_allworld.mp4"
     },
     {
       "id": "d10",
@@ -202,7 +202,7 @@
       "gancho": "El detalle del ETF que casi nadie mira",
       "descripcion": "La acumulación reinvierte los dividendos y en España no tributas hasta vender.",
       "url": "",
-      "archivo": ""
+      "archivo": "dia10_acumulacion_vs_distribucion.mp4"
     },
     {
       "id": "d11",
@@ -212,7 +212,7 @@
       "gancho": "Un 1 % parece poco… hasta que ves esto",
       "descripcion": "0,2 % frente a 1,5 % anual durante 35 años con la misma aportación.",
       "url": "",
-      "archivo": ""
+      "archivo": "dia11_comisiones.mp4"
     },
     {
       "id": "d12",
@@ -222,7 +222,7 @@
       "gancho": "La ventaja fiscal que tienen los fondos en España",
       "descripcion": "Los fondos permiten traspasos sin pagar impuestos; los ETF no.",
       "url": "",
-      "archivo": ""
+      "archivo": "dia12_fondos_vs_etf_espana.mp4"
     },
     {
       "id": "d13",
@@ -232,7 +232,7 @@
       "gancho": "Invierto sin pensar y sin comisiones",
       "descripcion": "Cómo funciona un plan de aportaciones periódicas.",
       "url": "",
-      "archivo": ""
+      "archivo": "dia13_plan_automatico.mp4"
     },
     {
       "id": "d14",
@@ -242,7 +242,7 @@
       "gancho": "Esto es lo que hago yo con 23 años",
       "descripcion": "10 €/semana ahora, 1.000 €/mes cuando trabaje, en un MSCI World de acumulación.",
       "url": "",
-      "archivo": ""
+      "archivo": "dia14_mi_plan_real.mp4"
     },
     {
       "id": "d15",
@@ -252,7 +252,7 @@
       "gancho": "El error que más dinero cuesta al invertir",
       "descripcion": "Las bajadas del 30-50 % pasan; quien vende con miedo convierte la caída en pérdida.",
       "url": "",
-      "archivo": ""
+      "archivo": "dia15_no_vender_en_caidas.mp4"
     },
     {
       "id": "d16",
@@ -262,7 +262,7 @@
       "gancho": "¿Esperar a que baje para entrar?",
       "descripcion": "Aportar siempre suele ganar a intentar acertar el momento.",
       "url": "",
-      "archivo": ""
+      "archivo": "dia16_adivinar_el_mercado.mp4"
     },
     {
       "id": "d17",
@@ -272,7 +272,7 @@
       "gancho": "Compré Netflix y esto es lo que aprendí",
       "descripcion": "Experiencia propia: por qué diversificar el grueso del dinero.",
       "url": "",
-      "archivo": ""
+      "archivo": "dia17_no_concentrarse.mp4"
     },
     {
       "id": "d18",
@@ -282,7 +282,7 @@
       "gancho": "¿Esperas a recuperar lo que pagaste?",
       "descripcion": "El precio de compra no importa: la pregunta es si la comprarías hoy.",
       "url": "",
-      "archivo": ""
+      "archivo": "dia18_sesgo_de_anclaje.mp4"
     },
     {
       "id": "d19",
@@ -292,7 +292,7 @@
       "gancho": "Lo que cuesta de verdad tu café diario",
       "descripcion": "3 € al día invertidos durante 35 años (ejemplo hipotético).",
       "url": "",
-      "archivo": ""
+      "archivo": "dia19_pequenos_gastos.mp4"
     },
     {
       "id": "d20",
@@ -302,7 +302,7 @@
       "gancho": "La tarjeta que te hace más pobre cada mes",
       "descripcion": "Tarjetas revolving y préstamos al consumo: el interés compuesto en tu contra.",
       "url": "",
-      "archivo": ""
+      "archivo": "dia20_deudas_caras.mp4"
     },
     {
       "id": "d21",
@@ -322,7 +322,7 @@
       "gancho": "¿Cuánto dinero necesitas para no trabajar?",
       "descripcion": "Gasto anual × 25. Con 2.000 €/mes, unos 600.000 €.",
       "url": "",
-      "archivo": ""
+      "archivo": "dia22_regla_del_4.mp4"
     },
     {
       "id": "d23",
@@ -332,7 +332,7 @@
       "gancho": "El truco de ahorro que funciona de verdad",
       "descripcion": "Ahorrar al cobrar, no lo que sobra a final de mes.",
       "url": "",
-      "archivo": ""
+      "archivo": "dia23_pagate_primero.mp4"
     },
     {
       "id": "d24",
@@ -342,7 +342,7 @@
       "gancho": "Cómo repartir tu sueldo en 3 cajas",
       "descripcion": "50 % necesidades, 30 % caprichos, 20 % ahorro e inversión.",
       "url": "",
-      "archivo": ""
+      "archivo": "dia24_regla_50_30_20.mp4"
     },
     {
       "id": "d25",
@@ -352,7 +352,7 @@
       "gancho": "Lo que más acelera tu libertad financiera",
       "descripcion": "Aumentar lo que ganas pesa más que recortar gastos pequeños.",
       "url": "",
-      "archivo": ""
+      "archivo": "dia25_subir_ingresos.mp4"
     },
     {
       "id": "d26",
@@ -362,7 +362,7 @@
       "gancho": "No tengas tu dinero parado en el banco",
       "descripcion": "Cuentas remuneradas para el dinero que no debe estar en bolsa.",
       "url": "",
-      "archivo": ""
+      "archivo": "dia26_donde_dejar_el_colchon.mp4"
     },
     {
       "id": "d27",
@@ -372,7 +372,7 @@
       "gancho": "Cuánto se lleva Hacienda de tus ganancias",
       "descripcion": "Base del ahorro del 19 % al 30 %; solo se paga por la ganancia al vender.",
       "url": "",
-      "archivo": ""
+      "archivo": "dia27_impuestos_inversion.mp4"
     },
     {
       "id": "d28",
