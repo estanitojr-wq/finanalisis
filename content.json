@@ -1,0 +1,418 @@
+{
+  "version": 1,
+  "textos": {
+    "hero_titulo": "Invierte en el mundo, sector a sector",
+    "hero_subtitulo": "Los 10 sectores de la economía global en ETFs de bajo coste, con datos de mercado en euros, y una academia de 30 clases para aprender a invertir desde cero.",
+    "sobre_md": "## Qué es FinAnálisis\n\nUna plataforma **gratuita y educativa** para entender cómo funciona la inversión a largo plazo a través de fondos cotizados (ETF).\n\n## De dónde salen los datos\n\n- **Cotizaciones:** Yahoo Finance, en euros (bolsa Xetra), actualizadas cada hora.\n- **Peso de cada sector:** ficha oficial del índice MSCI World.\n- **Comisiones (TER):** fichas de los emisores de cada ETF.\n\n## Cómo se calculan las métricas\n\n- **Rentabilidad anualizada:** la rentabilidad media por año que habría dado el ETF en ese periodo.\n- **Volatilidad:** cuánto oscila el precio en un año (desviación típica de los rendimientos diarios × √252).\n- **Caída máxima:** la mayor bajada desde un máximo hasta un mínimo en los últimos 5 años.",
+    "aviso_legal": "Contenido exclusivamente educativo e informativo. No constituye recomendación personalizada de inversión. Rentabilidades pasadas no garantizan rentabilidades futuras. Invertir en bolsa implica riesgo de pérdida del capital."
+  },
+  "pesos_fuente": "MSCI World Index, ficha a 30/06/2026",
+  "benchmark": {
+    "ticker": "EUNL.DE",
+    "nombre": "MSCI World (iShares Core MSCI World UCITS ETF)"
+  },
+  "etfs": [
+    {
+      "id": "tecnologia",
+      "sector": "Tecnología",
+      "ticker": "XDWT.DE",
+      "nombre": "Xtrackers MSCI World Information Technology UCITS ETF 1C",
+      "ter": 0.25,
+      "peso": 30.27,
+      "descripcion": "Software, semiconductores y hardware: Apple, NVIDIA, Microsoft… El sector con más peso del índice mundial y el de mayor crecimiento de la última década, pero también el más volátil y el que depende de valoraciones más altas."
+    },
+    {
+      "id": "financiero",
+      "sector": "Financiero",
+      "ticker": "XDWF.DE",
+      "nombre": "Xtrackers MSCI World Financials UCITS ETF 1C",
+      "ter": 0.25,
+      "peso": 15.88,
+      "descripcion": "Bancos, aseguradoras, gestoras y medios de pago. Sus beneficios dependen mucho de los tipos de interés y del ciclo económico."
+    },
+    {
+      "id": "industrial",
+      "sector": "Industrial",
+      "ticker": "XDWI.DE",
+      "nombre": "Xtrackers MSCI World Industrials UCITS ETF 1C",
+      "ter": 0.25,
+      "peso": 11.64,
+      "descripcion": "Aeroespacial y defensa, maquinaria, transporte, construcción e ingeniería. Muy ligado a la inversión de las empresas y a la economía real."
+    },
+    {
+      "id": "salud",
+      "sector": "Salud",
+      "ticker": "XDWH.DE",
+      "nombre": "Xtrackers MSCI World Health Care UCITS ETF 1C",
+      "ter": 0.25,
+      "peso": 9.08,
+      "descripcion": "Farmacéuticas, biotecnología, equipos médicos y seguros de salud. Tradicionalmente defensivo: la demanda de salud no desaparece en una crisis."
+    },
+    {
+      "id": "consumo_discrecional",
+      "sector": "Consumo discrecional",
+      "ticker": "XDWC.DE",
+      "nombre": "Xtrackers MSCI World Consumer Discretionary UCITS ETF 1C",
+      "ter": 0.25,
+      "peso": 8.91,
+      "descripcion": "Lo que compramos cuando nos sobra dinero: coches, ropa, viajes, restaurantes, comercio online. Sube con fuerza en las expansiones y sufre en las recesiones."
+    },
+    {
+      "id": "comunicaciones",
+      "sector": "Comunicaciones",
+      "ticker": "XWTS.DE",
+      "nombre": "Xtrackers MSCI World Communication Services UCITS ETF 1C",
+      "ter": 0.25,
+      "peso": 8.07,
+      "descripcion": "Buscadores, redes sociales, plataformas de vídeo y telecos: Alphabet, Meta, Netflix… Mezcla de crecimiento digital y operadoras muy estables."
+    },
+    {
+      "id": "consumo_basico",
+      "sector": "Consumo básico",
+      "ticker": "XDWS.DE",
+      "nombre": "Xtrackers MSCI World Consumer Staples UCITS ETF 1C",
+      "ter": 0.25,
+      "peso": 5.01,
+      "descripcion": "Alimentación, bebidas, higiene y supermercados: lo que compramos pase lo que pase. Defensivo, con menos subidas y menos caídas que el mercado."
+    },
+    {
+      "id": "energia",
+      "sector": "Energía",
+      "ticker": "XDW0.DE",
+      "nombre": "Xtrackers MSCI World Energy UCITS ETF 1C",
+      "ter": 0.25,
+      "peso": 3.59,
+      "descripcion": "Petróleo y gas: extracción, refino y servicios. Muy cíclico: va de la mano del precio del crudo."
+    },
+    {
+      "id": "materiales",
+      "sector": "Materiales",
+      "ticker": "XDWM.DE",
+      "nombre": "Xtrackers MSCI World Materials UCITS ETF 1C",
+      "ter": 0.25,
+      "peso": 3.3,
+      "descripcion": "Química, minería, metales, papel y envases. Depende de los precios de las materias primas y de la demanda industrial global."
+    },
+    {
+      "id": "servicios_publicos",
+      "sector": "Servicios públicos",
+      "ticker": "XDWU.DE",
+      "nombre": "Xtrackers MSCI World Utilities UCITS ETF 1C",
+      "ter": 0.25,
+      "peso": 2.6,
+      "descripcion": "Eléctricas, gas y agua: Iberdrola, NextEra… Ingresos regulados y estables, dividendos altos y mucha deuda; sensible a los tipos de interés."
+    }
+  ],
+  "videos": [
+    {
+      "id": "d01",
+      "dia": 1,
+      "modulo": "Semana 1 · Lo básico",
+      "titulo": "La constancia",
+      "gancho": "10 € a la semana no te hacen rico… ¿o sí?",
+      "descripcion": "El poder del 1 % diario y de aportar sin parar.",
+      "url": "",
+      "archivo": "constancia_dia1.mp4"
+    },
+    {
+      "id": "d02",
+      "dia": 2,
+      "modulo": "Semana 1 · Lo básico",
+      "titulo": "Interés compuesto",
+      "gancho": "Esta es la razón por la que el dinero llama al dinero",
+      "descripcion": "Intereses sobre intereses: 10.000 € al 10 % a 30 años, simple (40.000 €) frente a compuesto (174.494 €).",
+      "url": "",
+      "archivo": "interes_compuesto.mp4"
+    },
+    {
+      "id": "d03",
+      "dia": 3,
+      "modulo": "Semana 1 · Lo básico",
+      "titulo": "La regla del 72",
+      "gancho": "Un truco para saber cuándo se duplica tu dinero",
+      "descripcion": "72 ÷ rentabilidad = años para duplicar. Al 7 %, unos 10 años.",
+      "url": "",
+      "archivo": ""
+    },
+    {
+      "id": "d04",
+      "dia": 4,
+      "modulo": "Semana 1 · Lo básico",
+      "titulo": "Empezar pronto (Ana y Luis)",
+      "gancho": "Ana puso 2,5 veces menos dinero… y acabó con más",
+      "descripcion": "Invertir 10 años desde los 23 gana a invertir 25 desde los 33.",
+      "url": "",
+      "archivo": ""
+    },
+    {
+      "id": "d05",
+      "dia": 5,
+      "modulo": "Semana 1 · Lo básico",
+      "titulo": "La inflación",
+      "gancho": "Tu dinero en el banco pierde valor cada año",
+      "descripcion": "Con un 2,5 % de inflación, 1.000 € compran como 780 € dentro de 10 años.",
+      "url": "",
+      "archivo": ""
+    },
+    {
+      "id": "d06",
+      "dia": 6,
+      "modulo": "Semana 1 · Lo básico",
+      "titulo": "Fondo de emergencia",
+      "gancho": "Antes de invertir un solo euro, haz esto",
+      "descripcion": "De 3 a 6 meses de gastos en una cuenta remunerada, para no tener que vender en una caída.",
+      "url": "",
+      "archivo": ""
+    },
+    {
+      "id": "d07",
+      "dia": 7,
+      "modulo": "Semana 1 · Lo básico",
+      "titulo": "Repaso semana 1 y dudas",
+      "gancho": "Respondo vuestras preguntas de la semana",
+      "descripcion": "Respuestas a los comentarios de la primera semana.",
+      "url": "",
+      "archivo": ""
+    },
+    {
+      "id": "d08",
+      "dia": 8,
+      "modulo": "Semana 2 · Cómo invertir",
+      "titulo": "Qué es un fondo indexado o ETF",
+      "gancho": "Cómo comprar 1.500 empresas con 10 €",
+      "descripcion": "Una cesta de muchas empresas, diversificada y con comisiones bajas.",
+      "url": "",
+      "archivo": ""
+    },
+    {
+      "id": "d09",
+      "dia": 9,
+      "modulo": "Semana 2 · Cómo invertir",
+      "titulo": "MSCI World vs S&P 500 vs All-World",
+      "gancho": "¿Cuál es mejor para empezar?",
+      "descripcion": "EE. UU., países desarrollados o todo el mundo: la diversificación de cada uno.",
+      "url": "",
+      "archivo": ""
+    },
+    {
+      "id": "d10",
+      "dia": 10,
+      "modulo": "Semana 2 · Cómo invertir",
+      "titulo": "Acumulación vs distribución",
+      "gancho": "El detalle del ETF que casi nadie mira",
+      "descripcion": "La acumulación reinvierte los dividendos y en España no tributas hasta vender.",
+      "url": "",
+      "archivo": ""
+    },
+    {
+      "id": "d11",
+      "dia": 11,
+      "modulo": "Semana 2 · Cómo invertir",
+      "titulo": "Las comisiones",
+      "gancho": "Un 1 % parece poco… hasta que ves esto",
+      "descripcion": "0,2 % frente a 1,5 % anual durante 35 años con la misma aportación.",
+      "url": "",
+      "archivo": ""
+    },
+    {
+      "id": "d12",
+      "dia": 12,
+      "modulo": "Semana 2 · Cómo invertir",
+      "titulo": "Fondo indexado vs ETF en España",
+      "gancho": "La ventaja fiscal que tienen los fondos en España",
+      "descripcion": "Los fondos permiten traspasos sin pagar impuestos; los ETF no.",
+      "url": "",
+      "archivo": ""
+    },
+    {
+      "id": "d13",
+      "dia": 13,
+      "modulo": "Semana 2 · Cómo invertir",
+      "titulo": "Plan de inversión automático",
+      "gancho": "Invierto sin pensar y sin comisiones",
+      "descripcion": "Cómo funciona un plan de aportaciones periódicas.",
+      "url": "",
+      "archivo": ""
+    },
+    {
+      "id": "d14",
+      "dia": 14,
+      "modulo": "Semana 2 · Cómo invertir",
+      "titulo": "Mi plan real",
+      "gancho": "Esto es lo que hago yo con 23 años",
+      "descripcion": "10 €/semana ahora, 1.000 €/mes cuando trabaje, en un MSCI World de acumulación.",
+      "url": "",
+      "archivo": ""
+    },
+    {
+      "id": "d15",
+      "dia": 15,
+      "modulo": "Semana 3 · Errores típicos",
+      "titulo": "No vender en las caídas",
+      "gancho": "El error que más dinero cuesta al invertir",
+      "descripcion": "Las bajadas del 30-50 % pasan; quien vende con miedo convierte la caída en pérdida.",
+      "url": "",
+      "archivo": ""
+    },
+    {
+      "id": "d16",
+      "dia": 16,
+      "modulo": "Semana 3 · Errores típicos",
+      "titulo": "Intentar adivinar el mercado",
+      "gancho": "¿Esperar a que baje para entrar?",
+      "descripcion": "Aportar siempre suele ganar a intentar acertar el momento.",
+      "url": "",
+      "archivo": ""
+    },
+    {
+      "id": "d17",
+      "dia": 17,
+      "modulo": "Semana 3 · Errores típicos",
+      "titulo": "No concentrarse en una acción",
+      "gancho": "Compré Netflix y esto es lo que aprendí",
+      "descripcion": "Experiencia propia: por qué diversificar el grueso del dinero.",
+      "url": "",
+      "archivo": ""
+    },
+    {
+      "id": "d18",
+      "dia": 18,
+      "modulo": "Semana 3 · Errores típicos",
+      "titulo": "El sesgo de anclaje",
+      "gancho": "¿Esperas a recuperar lo que pagaste?",
+      "descripcion": "El precio de compra no importa: la pregunta es si la comprarías hoy.",
+      "url": "",
+      "archivo": ""
+    },
+    {
+      "id": "d19",
+      "dia": 19,
+      "modulo": "Semana 3 · Errores típicos",
+      "titulo": "Los pequeños gastos",
+      "gancho": "Lo que cuesta de verdad tu café diario",
+      "descripcion": "3 € al día invertidos durante 35 años (ejemplo hipotético).",
+      "url": "",
+      "archivo": ""
+    },
+    {
+      "id": "d20",
+      "dia": 20,
+      "modulo": "Semana 3 · Errores típicos",
+      "titulo": "Deudas caras",
+      "gancho": "La tarjeta que te hace más pobre cada mes",
+      "descripcion": "Tarjetas revolving y préstamos al consumo: el interés compuesto en tu contra.",
+      "url": "",
+      "archivo": ""
+    },
+    {
+      "id": "d21",
+      "dia": 21,
+      "modulo": "Semana 3 · Errores típicos",
+      "titulo": "Repaso semana 3 y dudas",
+      "gancho": "Vuestras preguntas sobre errores al invertir",
+      "descripcion": "Respuestas a comentarios y los 3 errores clave.",
+      "url": "",
+      "archivo": ""
+    },
+    {
+      "id": "d22",
+      "dia": 22,
+      "modulo": "Semana 4 · Libertad financiera",
+      "titulo": "La regla del 4 %",
+      "gancho": "¿Cuánto dinero necesitas para no trabajar?",
+      "descripcion": "Gasto anual × 25. Con 2.000 €/mes, unos 600.000 €.",
+      "url": "",
+      "archivo": ""
+    },
+    {
+      "id": "d23",
+      "dia": 23,
+      "modulo": "Semana 4 · Libertad financiera",
+      "titulo": "Págate a ti primero",
+      "gancho": "El truco de ahorro que funciona de verdad",
+      "descripcion": "Ahorrar al cobrar, no lo que sobra a final de mes.",
+      "url": "",
+      "archivo": ""
+    },
+    {
+      "id": "d24",
+      "dia": 24,
+      "modulo": "Semana 4 · Libertad financiera",
+      "titulo": "La regla 50/30/20",
+      "gancho": "Cómo repartir tu sueldo en 3 cajas",
+      "descripcion": "50 % necesidades, 30 % caprichos, 20 % ahorro e inversión.",
+      "url": "",
+      "archivo": ""
+    },
+    {
+      "id": "d25",
+      "dia": 25,
+      "modulo": "Semana 4 · Libertad financiera",
+      "titulo": "Subir ingresos",
+      "gancho": "Lo que más acelera tu libertad financiera",
+      "descripcion": "Aumentar lo que ganas pesa más que recortar gastos pequeños.",
+      "url": "",
+      "archivo": ""
+    },
+    {
+      "id": "d26",
+      "dia": 26,
+      "modulo": "Semana 4 · Libertad financiera",
+      "titulo": "Dónde dejar el colchón",
+      "gancho": "No tengas tu dinero parado en el banco",
+      "descripcion": "Cuentas remuneradas para el dinero que no debe estar en bolsa.",
+      "url": "",
+      "archivo": ""
+    },
+    {
+      "id": "d27",
+      "dia": 27,
+      "modulo": "Semana 4 · Libertad financiera",
+      "titulo": "Impuestos al invertir en España",
+      "gancho": "Cuánto se lleva Hacienda de tus ganancias",
+      "descripcion": "Base del ahorro del 19 % al 30 %; solo se paga por la ganancia al vender.",
+      "url": "",
+      "archivo": ""
+    },
+    {
+      "id": "d28",
+      "dia": 28,
+      "modulo": "Cierre del reto",
+      "titulo": "Mis números del reto",
+      "gancho": "28 días subiendo vídeos: estos son mis resultados",
+      "descripcion": "Seguidores, vistas y qué vídeo funcionó mejor.",
+      "url": "",
+      "archivo": ""
+    },
+    {
+      "id": "d29",
+      "dia": 29,
+      "modulo": "Cierre del reto",
+      "titulo": "Lo que he aprendido",
+      "gancho": "Lo que nadie te cuenta de ser constante",
+      "descripcion": "Lecciones del reto: días difíciles, hábitos y cómo seguir.",
+      "url": "",
+      "archivo": ""
+    },
+    {
+      "id": "d30",
+      "dia": 30,
+      "modulo": "Cierre del reto",
+      "titulo": "Final del reto",
+      "gancho": "Día 30. Lo he conseguido.",
+      "descripcion": "Cierre, agradecimientos y qué viene ahora.",
+      "url": "",
+      "archivo": ""
+    },
+    {
+      "id": "x01",
+      "dia": null,
+      "modulo": "Extras",
+      "titulo": "El riesgo de divisa euro–dólar",
+      "gancho": "La acción sube un 10 %… y tú ganas 0 €",
+      "descripcion": "Cómo afecta el tipo de cambio a tus inversiones en EE. UU. y qué puedes hacer.",
+      "url": "",
+      "archivo": "riesgo_divisa.mp4"
+    }
+  ]
+}

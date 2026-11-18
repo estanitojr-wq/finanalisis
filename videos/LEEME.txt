@@ -1,0 +1,3 @@
+Sube aquí los vídeos .mp4 (máx. 25 MB cada uno si los subes desde la web de GitHub).
+El nombre debe coincidir con la columna "archivo" del panel de Administración.
+Ejemplos ya configurados: constancia_dia1.mp4, interes_compuesto.mp4, riesgo_divisa.mp4
