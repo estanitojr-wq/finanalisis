@@ -85,6 +85,12 @@ def find_video_file(name: str) -> Path | None:
         p = d / name
         if p.is_file():
             return p
+    # También dentro de subcarpetas de videos/ (p. ej. videos/videos/ al subir una carpeta entera)
+    videos_dir = ROOT / "videos"
+    if videos_dir.is_dir():
+        for p in videos_dir.rglob(name):
+            if p.is_file():
+                return p
     return None
 
 
